@@ -52,6 +52,6 @@ var add_status = function (status,callback) {
     });
 }
 
-http.listen(8080,function(){
-    console.log("Listening on 8080");
+http.listen(80,function(){
+    console.log("Listening on 80");
 });
