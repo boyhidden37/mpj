@@ -1,9 +1,15 @@
 {
-  "name"          :     "facebook-chat-socket",
-  "version"       :     "0.0.1",
-  "dependencies"  : {
-      "express"   : "~4.11.2",
-      "socket.io" : "~1.3.3",
-       "mysql"    : "~2.5.5"
-  }
+	"name": "facebook-chat-socket",
+	"version": "0.0.1",
+	"description": "This is a private chat application in angularjs and nodejs using Mysql as database.",
+	"main": "Server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "ujju bhai",
+	"dependencies": {
+		"express": "^4.16.2",
+		"mysql": "^2.5.5",
+		"socket.io": "^2.5.5"
+	}
 }
